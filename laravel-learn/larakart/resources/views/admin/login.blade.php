@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>Am from ADMIN PAGE</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae ducimus voluptates placeat perferendis repudiandae at provident maiores harum. Asperiores quia a nostrum alias numquam iusto repellat quibusdam earum, illum magnam.</p>
 </body>
 </html>

@@ -15,15 +15,16 @@
     <div class="col-md-6">
 
     <form action="{{route('admin.do.login')}}" method="POST" >
+  
   <!-- Email input -->
   <div data-mdb-input-init class="form-outline mb-4">
-    <input type="text" id="form2Example1" class="form-control" />
+    <input type="text" id="form2Example1" name="username" class="form-control" />
     <label class="form-label" for="form2Example1">Username:</label>
   </div>
 
   <!-- Password input -->
   <div data-mdb-input-init class="form-outline mb-4">
-    <input type="password" id="form2Example2" class="form-control" />
+    <input type="password" id="form2Example2" name="password" class="form-control" />
     <label class="form-label" for="form2Example2">Password</label>
   </div>
 
@@ -76,4 +77,3 @@
 
 </body>
 </html>
-@csrf directive
